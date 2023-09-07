@@ -14,11 +14,11 @@ function Fixture(id, homeName, awayName, homeScore, awayScore, stage, day, date,
 }
 
 const FIXTURES = [
-    Fixture(1, "Claire", "Gramma", null, null, "pool", "fri", "8 september", "20:15", "Stade de France, Saint-Denis"),
-    Fixture(2, "Ci & Jens", "Chrissy", null, null, "pool", "sat", "9 september", "12:00", "Stade Geoffroy-Guichard, Saint-Etienne" ),
-    Fixture(3, "Martine", "Winters", null, null, "pool", "Sat", "9 september", "14:30", "Stade de Bordeaux, Bordeaux"),
-    Fixture(4, "Sonny", "Julian", null, null, "pool", "sat", "9 september", "17:00", "Stade de France, Saint-Denis"),
-    Fixture(5, "Bethan", "Louise", null, null, "pool", "sat", "9 september", "20:00", "Stade de Marseille, Marseille"),
+    Fixture(1, "Claire", "Gramma", null, null, "pool", "fri", "08 september", "20:15", "Stade de France, Saint-Denis"),
+    Fixture(2, "Ci & Jens", "Chrissy", null, null, "pool", "sat", "09 september", "12:00", "Stade Geoffroy-Guichard, Saint-Etienne" ),
+    Fixture(3, "Martine", "Winters", null, null, "pool", "Sat", "09 september", "14:30", "Stade de Bordeaux, Bordeaux"),
+    Fixture(4, "Sonny", "Julian", null, null, "pool", "sat", "09 september", "17:00", "Stade de France, Saint-Denis"),
+    Fixture(5, "Bethan", "Louise", null, null, "pool", "sat", "09 september", "20:00", "Stade de Marseille, Marseille"),
     Fixture(6, "Josie", "Callum", null, null, "pool", "sun", "10 september", "12:00", "Stadium de Toulouse, Toulouse"),
     Fixture(7, "Ian", "George", null, null, "pool", "sun", "10 september", "16:45", "Stade de Marseille, Marseille"),
     Fixture(8, "Jack", "Connor", null, null, "pool", "sun", "10 september", "20:00", "Stade de Bordeaux, Bordeaux"),
