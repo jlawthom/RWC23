@@ -9,25 +9,25 @@ function renderTournamentBoard(){
         </div>
 
         <div class="tournament-grid-container">
-            <div class="TournamentKnockoutMatch" RoundLabel="Quarter Final" namePlayer1="Gary" namePlayer2="Connor"></div>
-            <div class="TournamentKnockoutMatch" RoundLabel="Quarter Final" namePlayer1="Rhiannon" namePlayer2="Josie"></div>
+            <div class="TournamentKnockoutMatch" RoundLabel="Quarter Final" namePlayer1="Winner Pool A" namePlayer2="Runner-Up Pool B"></div>
+            <div class="TournamentKnockoutMatch" RoundLabel="Quarter Final" namePlayer1="Winner Pool D" namePlayer2="Runner-Up Pool C"></div>
         </div>
 
         <div class="tournament-grid-container">
-            <div class="TournamentKnockoutMatch" RoundLabel="Semi Final" namePlayer1="Connor" namePlayer2="Rhiannon"></div>
+            <div class="TournamentKnockoutMatch" RoundLabel="Semi Final" namePlayer1="Winner QF3" namePlayer2="Winner QF4"></div>
         </div>
 
         <div class="tournament-grid-container">
-            <div class="TournamentFinalMatch" RoundLabel="Final" namePlayer1="Connor" namePlayer2="Naomi"></div>
+            <div class="TournamentFinalMatch" RoundLabel="Final" namePlayer1="Winner SF1" namePlayer2="Winner SF2"></div>
         </div>
 
         <div class="tournament-grid-container">
-            <div class="TournamentKnockoutMatch" RoundLabel="Semi Final" namePlayer1="Leah" namePlayer2="Naomi"></div>
+            <div class="TournamentKnockoutMatch" RoundLabel="Semi Final" namePlayer1="Winner QF1" namePlayer2="Winner QF2"></div>
         </div>
 
         <div class="tournament-grid-container">
-            <div class="TournamentKnockoutMatch" RoundLabel="Quarter Final" namePlayer1="Leah" namePlayer2="Claire"></div>
-            <div class="TournamentKnockoutMatch" RoundLabel="Quarter Final" namePlayer1="Naomi" namePlayer2="Lili"></div>
+            <div class="TournamentKnockoutMatch" RoundLabel="Quarter Final" namePlayer1="Winner Pool B" namePlayer2="Runner-Up Pool A"></div>
+            <div class="TournamentKnockoutMatch" RoundLabel="Quarter Final" namePlayer1="Winner Pool C" namePlayer2="Runner-Up Pool D"></div>
         </div>
 
         <div class="tournament-grid-container">

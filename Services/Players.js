@@ -11,26 +11,26 @@ function Player(playerId, name, team, pool, tieBreak, points, pin){
 }
 
 const PLAYERS = [
-    Player(1, "Andrea", "Tonga", "C",0, 6, 1000),
-    Player(2, "Claire", "Ireland", "A", 1, 16, 1234),
-    Player(3, "Freddy", "Scotland", "A", 0, 11, 1010),
-    Player(4, "Louise", "Russia", "A", -1, 0, 2000),
-    Player(5, "Naomi", "England", "C", 0, 17, 9999),
-    Player(6, "George", "Canada", "B", -1, 2, 2222),
-    Player(7, "Geraint", "Namibia", "B", 0, 2, 2345),
-    Player(8, "Josie", "France", "C", 0, 15, 5555),
-    Player(9, "Martine", "Samoa", "A", -1, 5, 1111),
-    Player(10, "Ian", "Fiji", "D", 0, 7, 5678),
-    Player(11, "Julian", "Argentina", "C", 0, 11, 4321),
-    Player(12, "Lee", "Italy", "B", -1, 12, 6789),
-    Player(13, "Leah", "New Zealand", "B", 0, 16, 9999),
-    Player(14, "Gary", "Japan", "A", 0, 19, 5432),
-    Player(15, "Jack", "USA", "C", -1, 0, 1234),
-    Player(16, "Joe", "Uruguay", "D", 0, 4, 5000),
-    Player(17, "Connor", "South Africa", "B", 1, 15, 2020),
-    Player(18, "Callum", "Georgia", "D", -2, 5, 1997),
-    Player(19, "Lili","Australia", "D", 0, 16, 3333),
-    Player(20, "Rhiannon", "Wales", "D", 1, 19, 4444)
+    Player(1, "Gramma", "New Zealand", "A",0, 0, 1000),
+    Player(2, "Claire", "France", "A", 0, 0, 1234),
+    Player(3, "Ci & Jens", "Italy", "A", 0, 0, 1010),
+    Player(4, "Naomi", "Uruguay", "A", 0, 0, 2000),
+    Player(5, "Chrissy", "Namibia", "A", 0, 0, 9999),
+    Player(6, "Ian", "South Africa", "B", 0, 0, 2222),
+    Player(7, "Martine", "Ireland", "B", 0, 0, 2345),
+    Player(8, "George", "Scotland", "B", 0, 0, 5555),
+    Player(9, "Povey", "Tonga", "B", 0, 0, 1111),
+    Player(10, "Winters", "Romania", "B", 0, 0, 5678),
+    Player(11, "Jack", "Wales", "C", 0, 0, 4321),
+    Player(12, "Sonny", "Australia", "C", 0, 0, 6789),
+    Player(13, "Connor", "Fiji", "C", 0, 0, 9999),
+    Player(14, "Julian", "Georgia", "C", 0, 0, 5432),
+    Player(15, "Andrea", "Portugal", "C", 0, 0, 1234),
+    Player(16, "Bethan", "England", "D", 0, 0, 5000),
+    Player(17, "Josie", "Japan", "D", 0, 0, 2020),
+    Player(18, "Louise", "Argentina", "D", 0, 0, 1997),
+    Player(19, "Joe","Samoa", "D", 0, 0, 3333),
+    Player(20, "Callum", "Chile", "D", 0, 0, 4444)
 ]
 
 function getPlayer(inputName){

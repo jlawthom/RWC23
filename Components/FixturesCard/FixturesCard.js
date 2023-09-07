@@ -96,9 +96,9 @@ function renderFixturesCard(){
         if (homePlayer && awayPlayer) {
             let matchInfoLink;
             if (fixture['stage']=="pool"){
-                matchInfoLink = `https://www.rugbyworldcup.com/match/${homePlayer['team'].replace(/\s/g, '')}-${awayPlayer['team'].replace(/\s/g, '')}`;
+                matchInfoLink = `https://www.rugbyworldcup.com/2023/match/pool-${homePlayer['pool']}-${homePlayer['team'].replace(/ /g, '-')}-${awayPlayer['team'].replace(/ /g, '-')}`;
             } else {
-                matchInfoLink = `https://www.rugbyworldcup.com/match/${fixture['stage'].replace(/ /g, '-')}`;
+                matchInfoLink = `https://www.rugbyworldcup.com/match/${fixture['stage'].replace(/ /g, '-')}-${homePlayer['team'].replace(/ /g, '-')}-${awayPlayer['team'].replace(/ /g, '-')}`;
             }
             HTML += `
                     <div class="card-footer fixtures-footer">
