@@ -14,7 +14,7 @@ function Fixture(id, homeName, awayName, homeScore, awayScore, stage, day, date,
 }
 
 const FIXTURES = [
-    Fixture(1, "Claire", "Gramma", null, null, "pool", "fri", "08 september", "20:15", "Stade de France, Saint-Denis"),
+    Fixture(1, "Claire", "Gramma", 27, 13, "pool", "fri", "08 september", "20:15", "Stade de France, Saint-Denis"),
     Fixture(2, "Ci & Jens", "Chrissy", null, null, "pool", "sat", "09 september", "12:00", "Stade Geoffroy-Guichard, Saint-Etienne" ),
     Fixture(3, "Martine", "Winters", null, null, "pool", "Sat", "09 september", "14:30", "Stade de Bordeaux, Bordeaux"),
     Fixture(4, "Sonny", "Julian", null, null, "pool", "sat", "09 september", "17:00", "Stade de France, Saint-Denis"),
