@@ -23,7 +23,7 @@ const FIXTURES = [
     Fixture(7, "Ian", "George", 18, 3, "pool", "sun", "10 september", "16:45", "Stade de Marseille, Marseille"),
     Fixture(8, "Jack", "Connor", 32, 26, "pool", "sun", "10 september", "20:00", "Stade de Bordeaux, Bordeaux"),
     Fixture(9, "Claire", "Naomi", 27, 12, "pool", "thur", "14 september", "20:00", "Stade Pierre-Mauroy, Lille"),
-    Fixture(10, "Gramma", "Chrissy", null, null, "pool", "fri", "15 september", "20:00", "Stadium de Toulouse, Toulouse"),
+    Fixture(10, "Gramma", "Chrissy", 71, 3, "pool", "fri", "15 september", "20:00", "Stadium de Toulouse, Toulouse"),
     Fixture(11, "Joe", "Callum", null, null, "pool", "sat", "16 september", "14:00", "Stade de Bordeaux, Bordeaux"),
     Fixture(12, "Jack", "Andrea", null, null, "pool", "sat", "16 september", "16:45", "Stade de Nice, Nice"),
     Fixture(13, "Martine", "Povey", null, null, "pool", "sat", "16 september", "20:00", "Stade de la Beaujoire, Nantes"),
