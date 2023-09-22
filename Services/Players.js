@@ -28,9 +28,9 @@ const PLAYERS = [
     Player(15, "Andrea", "Portugal", "C", -1, 0, 1234),
     Player(16, "Bethan", "England", "D", 0, 9, 5000),
     Player(17, "Josie", "Japan", "D", 0, 5, 2020),
-    Player(18, "Louise", "Argentina", "D", 0, 0, 1997),
+    Player(18, "Louise", "Argentina", "D", 0, 4, 1997),
     Player(19, "Joe","Samoa", "D", 1, 5, 3333),
-    Player(20, "Callum", "Chile", "D", -1, 0, 4444)
+    Player(20, "Callum", "Chile", "D", 0, 0, 4444)
 ]
 
 function getPlayer(inputName){
