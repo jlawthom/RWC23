@@ -51,17 +51,24 @@ function filterResults() {
 
 function filterToday() {
   date = getTodayDate();
+
   day = (date[0]).toString();
   if (day.length==1){day = "0"+day}
   activeMatches = FIXTURES.filter(match => match['date']==day+" "+date[1]);
+  
   renderFixturesBoard(activeMatches, "Today");
 }
 
 function filterTomorrow() {
   date = getTodayDate();
+
+  date = date[0] === 30 && date[1] === 'september' ? [0, 'october'] : date;
+  date = date[0] === 31 && date[1] === 'october' ? [0, 'november'] : date;
+  
   day = (date[0]+1).toString();
   if (day.length==1){day = "0"+day}
   activeMatches = FIXTURES.filter(match => match['date']==day+" "+date[1]);
+  
   renderFixturesBoard(activeMatches, "Tomorrow");
 }
 
