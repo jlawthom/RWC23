@@ -17,14 +17,14 @@ const PLAYERS = [
     Player(4, "Naomi", "Uruguay", "A", 0, 5, 2000),
     Player(5, "Chrissy", "Namibia", "A", 0, 0, 9999),
 
-    Player(6, "Ian", "South Africa", "B", 0, 10, 2222),
+    Player(6, "Ian", "South Africa", "B", 0, 15, 2222),
     Player(7, "Martine", "Ireland", "B", 0, 14, 2345),
     Player(8, "George", "Scotland", "B", -1, 10, 5555),
     Player(9, "Povey", "Tonga", "B", 0, 0, 1111),
     Player(10, "Winters", "Romania", "B", -1, 0, 5678),
 
     Player(11, "Jack", "Wales", "C", 0, 14, 4321),
-    Player(12, "Sonny", "Australia", "C", 0, 6, 6789),
+    Player(12, "Sonny", "Australia", "C", 0, 11, 6789),
     Player(13, "Connor", "Fiji", "C", 0, 10, 9999),
     Player(14, "Julian", "Georgia", "C", 0, 3, 5432),
     Player(15, "Andrea", "Portugal", "C", 0, 2, 1234),
