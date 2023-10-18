@@ -54,12 +54,12 @@ const FIXTURES = [
     Fixture(38, "Josie", "Louise", 27, 39, "pool", "sun", "08 october", "12:00", "Stade de la Beaujoire, Nantes"),
     Fixture(39, "Povey", "Winters", 45, 24, "pool", "sun", "08 october", "16:45", "Stade Pierre-Mauroy, Lille"),
     Fixture(40, "Connor", "Andrea", 23, 24, "pool", "sun", "08 october", "20:00", "Stadium de Toulouse, Toulouse"),
-    Fixture(41, "Jack", "Louise", null, null, "Quarter Final 1", "sat", "14 october", "16:00", "Stade de Marseille, Marseille"),
-    Fixture(42, "Martine", "Gramma", null, null, "Quarter Final 2", "sat", "14 october", "20:00", "Stade de France, Saint-Denis"),
-    Fixture(43, "Bethan", "Connor", null, null, "Quarter Final 3", "sun", "15 october", "16:00", "Stade de Marseille, Marseille"),
-    Fixture(44, "Claire", "Ian", null, null, "Quarter Final 4", "sun", "15 october", "20:00", "Stade de France, Saint-Denis"),
-    Fixture(45, "Winner QF1", "Winner QF2", null, null, "Semi Final 1", "fri", "20 october", "20:00", "Stade de France, Saint-Denis"),
-    Fixture(46, "Winner QF3", "Winner QF4", null, null, "Semi Final 2", "sat", "21 october", "20:00", "Stade de France, Saint-Denis"),
+    Fixture(41, "Jack", "Louise", 17, 29, "Quarter Final 1", "sat", "14 october", "16:00", "Stade de Marseille, Marseille"),
+    Fixture(42, "Martine", "Gramma", 24, 28, "Quarter Final 2", "sat", "14 october", "20:00", "Stade de France, Saint-Denis"),
+    Fixture(43, "Bethan", "Connor", 30, 24, "Quarter Final 3", "sun", "15 october", "16:00", "Stade de Marseille, Marseille"),
+    Fixture(44, "Claire", "Ian", 28, 29, "Quarter Final 4", "sun", "15 october", "20:00", "Stade de France, Saint-Denis"),
+    Fixture(45, "Louise", "Gramma", null, null, "Semi Final 1", "fri", "20 october", "20:00", "Stade de France, Saint-Denis"),
+    Fixture(46, "Bethan", "Ian", null, null, "Semi Final 2", "sat", "21 october", "20:00", "Stade de France, Saint-Denis"),
     Fixture(47, "Loser SF1", "Loser SF2", null, null, "Bronze Final", "fri", "27 october", "20:00", "Stade de France, Saint-Denis"),
     Fixture(48, "Winner SF1", "Winner SF2", null, null, "Final", "sat", "28 november", "20:00", "Stade de France, Saint-Denis")
 
